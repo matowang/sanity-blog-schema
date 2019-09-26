@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HZ\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\HZ\Documents\Websites\mato-sanity\node_modules\.bin;C:\Users\HZ\Documents\Websites\node_modules\.bin;C:\Users\HZ\Documents\node_modules\.bin;C:\Users\HZ\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs;C:\Users\HZ\AppData\Roaming\npm\node_modules\vendor;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HZ\bin;C:\Ruby25-x64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem;C:\Android;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\WinSCP;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Microsoft VS Code\bin;C:\tools\dart-sdk\bin;C:\Users\HZ\AppData\Roaming\Pub\Cache\bin;C:\Users\HZ\AppData\Roaming\npm;C:\Users\HZ\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/rxjs/-/rxjs-6.5.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\HZ\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:133816:19)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:661:40)
+      at Object.onceWrapper (events.js:273:13)
+      at TLSSocket.emit (events.js:182:13)
+      at TLSSocket.Socket._onTimeout (net.js:449:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "mato",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Matthew Wang <wmatthew123@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^0.142.2",
+      "@sanity/components": "^0.142.4",
+      "@sanity/core": "^0.142.4",
+      "@sanity/default-layout": "^0.142.4",
+      "@sanity/default-login": "^0.142.3",
+      "@sanity/desk-tool": "^0.142.4",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "project": {
+    "name": "mato"
+  },
+  "api": {
+    "projectId": "41fbwfkn",
+    "dataset": "personal-blog"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/code-input",
+    "markdown"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
